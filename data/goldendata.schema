@@ -1,0 +1,10 @@
+xid:string @index(exact) . 
+news:uid @reverse @count . 
+work:uid @reverse @count . 
+friend:uid @reverse @count . 
+news.type:string @index(exact) . 
+type.user:string @index(exact) . 
+type.work:string @index(exact) . 
+work.status:int @index(int) . 
+news.created_at:datetime @index(hour) . 
+work.created_at:datetime @index(hour) . 
